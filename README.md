@@ -9,6 +9,7 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 - Java 8
 - Spring Boot 2.7.18
 - Maven
+- React
 - Springdoc OpenAPI: Para documentação da API (antigo Swagger)
 - iTextPDF: Para geração do documento PDF
 - ZXing: Para geração de código de barras e QR Code
@@ -17,8 +18,9 @@ Este projeto foi construído utilizando as seguintes tecnologias:
 Como Executar o Projeto
 -----------------------
 Para executar o projeto localmente, siga os seguintes passos:
-- Clone este repositório: `git clone https://github.com/PedroBarrosoSouza/geradorBoleto.git`
-- Navegue até o diretório do projeto: `cd geradorBoleto`
+- Clone este repositório: `git clone https://github.com/PedroBarrosoSouza/geradorBoleto-Heroku.git`
+- Navegue até o diretório do projeto: `cd geradorBoleto-Heroku`
+- Utilizar a branch dev: `git checkout dev`
 - Execute a aplicação usando o Maven: `mvn spring-boot:run`
 
 A aplicação estará disponível em `http://localhost:8080`
